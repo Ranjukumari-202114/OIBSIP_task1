@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE</title>
+    <link rel="stylesheet" href="osias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+             <p>tajmahal</p>
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallary</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button><a href="#">Get Started</a></button>
+    </header>
+    
+       
+        
+    
+    <!--About section-->
+  <div class="rear">
+    <h1 class="about">ABOUT</h1>
+    <div class="cover">
+      <div class="container">
+          <img src="../osias_images/mumtajmahal.jpeg">
+          <h2>Mumtajmahal</h2><br>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptates, ipsum quod deserunt accusantium asperiores velit ducimus nemo molestiae accusamus reprehenderit doloribus maxime laboriosam officia mollitia totam culpa commodi inventore!</p>
+      </div>
+      <div class="container">
+        <img src="../osias_images/shahjaha.jpeg">
+        <h2>Shahjaha</h2><br>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi voluptatem magni, voluptas aspernatur reiciendis sed possimus, unde eaque ut dolor repellat animi consectetur ea aut, necessitatibus perferendis dolores itaque aliquid?</p>
+      </div>
+    </div>
+  </div> 
+    <br><br>
+<!--about end-->
+<!--service section-->
+    <section class="services" id="services">
+        <h1 class="heading">
+          <span class="span_txt">S</span>
+          <span class="span_txt">E</span>
+          <span class="span_txt">R</span>
+          <span class="span_txt">V</span>
+          <span class="span_txt">I</span>
+          <span class="span_txt">C</span>
+          <span class="span_txt">E</span>
+          <span class="span_txt">S</span>
+        </h1>
+  
+      <div class="box-container">
+          <div class="row">
+            <div class="box">
+              <i class="fas fa-hotel"></i>
+              <h3>Affordable hotels</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quod a
+                necessitatibus veniam aut ex, quis deserunt suscipit consequuntur
+                eos facilis quaerat dolore voluptatem. Consectetur placeat id error
+                explicabo eveniet.
+              </p>
+            </div>
+            <div class="box">
+              <i class="fas fa-utensils"></i>
+              <h3>Food and Drinks</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quod a
+                necessitatibus veniam aut ex, quis deserunt suscipit consequuntur
+                eos facilis quaerat dolore voluptatem. Consectetur placeat id error
+                explicabo eveniet.
+              </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safty guide</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quod a
+                  necessitatibus veniam aut ex, quis deserunt suscipit consequuntur
+                  eos facilis quaerat dolore voluptatem. Consectetur placeat id error
+                  explicabo eveniet.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Around the world</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quod a
+                  necessitatibus veniam aut ex, quis deserunt suscipit consequuntur
+                  eos facilis quaerat dolore voluptatem. Consectetur placeat id error
+                  explicabo eveniet.
+                </p>
+              </div>
+              <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest Travel</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quod a
+                  necessitatibus veniam aut ex, quis deserunt suscipit consequuntur
+                  eos facilis quaerat dolore voluptatem. Consectetur placeat id error
+                  explicabo eveniet.
+                </p>
+              </div>
+              <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventure</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quod a
+                  necessitatibus veniam aut ex, quis deserunt suscipit consequuntur
+                  eos facilis quaerat dolore voluptatem. Consectetur placeat id error
+                  explicabo eveniet.
+                </p>
+              </div>
+            </div>
+        </div>
+        </section>
+<!--gallary section-->
+
+  <h1 class="gallary">Gallary</h1>
+    <div class="full-img" id="fullImgBox">
+        <img src="../osias_images/taj1.jpg" id="fullImg" >
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    
+    <div class="img-gallery">
+        <img src="../osias_images/taj1.jpg" onclick="openFullImg(this.src)">
+        <img src="../osias_images/taj2.jpg" onclick="openFullImg(this.src)">
+        <img src="../osias_images/taj3.jpg" onclick="openFullImg(this.src)">
+        <img src="../osias_images/taj4.jpg" onclick="openFullImg(this.src)">
+        <img src="../osias_images/taj5.jpg" onclick="openFullImg(this.src)">
+        <img src="../osias_images/taj6.jpg" onclick="openFullImg(this.src)">
+        <img src="../osias_images/taj7.jpg" onclick="openFullImg(this.src)">
+        <img src="../osias_images/taj8.jpg" onclick="openFullImg(this.src)">
+        <img src="../osias_images/taj9.jpg" onclick="openFullImg(this.src)">
+        
+    </div>
+    <script>
+      
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+      
+        function openFullImg(pic)
+        {
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+
+        function closeFullImg()
+        {
+            fullImgBox.style.display = "none"; 
+        }
+    </script>
+
+    
+      <h1 class="contact">contact us</h1>
+    <div class="window">
+      <form>
+        <div class="row">
+        <div class="input-group">
+          <input type="text" id="Name"  required>
+          <label for="name"><i class="fas fa-user"></i> Your Name</label>
+       
+        </div>
+
+        <div class="input-group">
+          <input type="text" id="number"  required>
+          <label for="number"><i class="fas fa-phone-square-alt"></i> Phone  no.</label>
+       
+        </div>
+      </div>
+        <div class="input-group">
+          <input type="text" id="email"  required>
+          <label for="email"><i class="fas fa-envelope"></i> Email id</label>
+       
+        </div>
+
+        <div class="input-group">
+          <textarea type="text" id="message" required rows="6"></textarea>
+          <label for="message"><i class="fas fa-comments"></i> Your message</label>
+          
+       
+        </div>
+      <div class="button">
+        <button type="submit"><i class="fas fa-paper-plane"></i> SUBMIT</button>
+      </div>
+      </form>
+    </div>
+
+
+
+    
+    
+</body>
+</html>
